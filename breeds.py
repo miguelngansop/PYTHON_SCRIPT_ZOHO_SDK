@@ -37,7 +37,7 @@ class ZohoCRMContactCreator:
             if response_object is not None:
                 record_list = response_object.get_data()
                 if record_list and len(record_list) > 0:
-                    print("Le contact {breed} existe déjà dans Zoho CRM.".format(breed))
+                    print("Le contact {} existe déjà dans Zoho CRM.".format(breed))
                     return
 
         # Crée le contact dans Zoho CRM
