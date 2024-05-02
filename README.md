@@ -31,9 +31,8 @@ Here are the steps to set up the environment and install the necessary dependenc
 
 ## Usage
 Here's how I use the script to create contacts in Zoho CRM from the catfact.ninja API:
-```bash
-python create_zoho_contacts.py
-
+   ```bash
+   python create_zoho_contacts.py
 - The script calls the /breeds endpoint on catfact.ninja to extract the cat breeds.
 - For each breed with an origin of "Natural", the script creates a contact in Zoho CRM.
 - The script ensures no duplicate contacts are created through idempotent techniques.
